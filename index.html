@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffaf2">
+  <meta name="description" content="Nikky 的個人小天地，帶著一點色彩和好心情。">
+  <title>Nikky — Happy little corner</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Nikky 首頁"><span class="mark">n.</span><span>NIKKY</span></a>
+    <nav aria-label="主要導覽">
+      <a href="#about">關於我</a>
+      <a href="#projects">小作品</a>
+      <a class="nav-contact" href="#contact">打聲招呼 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <canvas id="particles" aria-hidden="true"></canvas>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> 一位正在好好生活的上班族</p>
+        <h1 id="hero-title">Hi, I'm <span class="name-gradient">Nikky<span class="sun">✳</span></span><br><span class="headline-line">and I choose <span class="happy">happy.</span></span></h1>
+        <p class="hero-text">日常有點忙，生活還是要有顏色。<br>歡迎來到我的小小角落。</p>
+        <div class="hero-actions"><a class="button button-primary" href="#about">認識我 <span aria-hidden="true">↓</span></a><a class="text-link" href="#projects">逛逛我的頁面 <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-art" aria-label="彩色圓形插畫">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sun-shape"><span>☺</span></div>
+        <span class="float-shape shape-star">✳</span><span class="float-shape shape-heart">♥</span><span class="float-shape shape-spark">✦</span>
+        <div class="art-note"><span class="note-dot"></span> TODAY IS A GOOD DAY</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> 往下看看</a>
+    </section>
+
+    <section class="about section-wrap" id="about" aria-labelledby="about-title">
+      <div class="section-kicker">01 <span>·</span> A LITTLE ABOUT ME</div>
+      <div class="about-grid"><h2 id="about-title">平凡日常，<br><span class="highlight">也能很閃亮。</span></h2><div class="about-copy"><p>嗨，我是 Nikky，一位上班族。喜歡把平凡的一天過得有趣一點，也相信好心情是可以練習的。</p><p class="about-note">目前的生活配方：<span>☀️ 一點陽光</span><span>🌈 一點顏色</span><span>💛 很多 Happy</span></p></div></div>
+      <div class="color-ribbon" aria-label="我的主色是彩色"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="projects section-wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-kicker">02 <span>·</span> LITTLE THINGS</div>
+      <div class="projects-heading"><h2 id="projects-title">我的小作品<span class="tiny-star">✳</span></h2><p>每一個開始，都值得期待。</p></div>
+      <div class="empty-card"><div class="empty-orbit"><span>✦</span></div><div><h3>作品集正在醞釀中</h3><p>目前還沒有上架作品，等我準備好就和你分享！</p></div><span class="empty-spark" aria-hidden="true">✳</span></div>
+    </section>
+
+    <section class="contact section-wrap" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner"><div><div class="section-kicker">03 <span>·</span> SAY HELLO</div><h2 id="contact-title">留下一點<br><span>好心情。</span></h2><p>想打聲招呼嗎？寫一小段話給我吧。</p></div>
+        <form id="contact-form"><label for="message">你的訊息</label><textarea id="message" name="message" rows="3" maxlength="2000" required placeholder="今天過得怎麼樣？"></textarea><div class="form-bottom"><span id="form-status" role="status" aria-live="polite">訊息不會被儲存或寄出，這是展示用表單。</span><button class="button button-dark" type="submit">送出訊息 <span aria-hidden="true">↗</span></button></div></form>
+      </div>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="#home"><span class="mark">n.</span><span>NIKKY</span></a><p>做個快樂的大人 ☀️</p><a class="back-top" href="#home">回到頂端 ↑</a></footer>
+</body>
+</html>
